@@ -69,3 +69,25 @@ class Person2 extends Human2 {
 const person2 = new Person2()
 person2.printMyName()
 person2.printGender()
+
+//Spread & Rest Operators
+const numbers = [1, 2, 3]
+const newNumbers = [...numbers, 4]
+console.log(newNumbers)
+
+const person3 = {
+  name: 'Alex'
+}
+
+const newPerson3 = {
+  ...person3,
+  age: 22
+}
+
+console.log(newPerson3)
+
+const filter = (...args) => {
+  return args.filter((el) => el === 1)
+}
+
+console.log(filter(1, 2, 3))
