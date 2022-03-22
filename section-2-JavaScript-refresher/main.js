@@ -91,3 +91,10 @@ const filter = (...args) => {
 }
 
 console.log(filter(1, 2, 3))
+
+//Destructuring
+/*
+not working in node
+const numbers2 = [1, 2, 3]
+[num1, num2] = numbers2
+console.log(num1, num2)*/
