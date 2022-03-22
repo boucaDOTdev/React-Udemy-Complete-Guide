@@ -48,3 +48,24 @@ class Person extends Human {
 const person = new Person()
 person.printMyName()
 person.printGender()
+
+//Classes, Properties and Methods
+class Human2 {
+  gender = 'male2'
+
+  printGender = () => {
+    console.log(this.gender)
+  }
+}
+
+class Person2 extends Human2 {
+  name = 'Alex2'
+
+  printMyName = () => {
+    console.log(this.name)
+  }
+}
+
+const person2 = new Person2()
+person2.printMyName()
+person2.printGender()
