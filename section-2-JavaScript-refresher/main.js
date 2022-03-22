@@ -98,3 +98,15 @@ not working in node
 const numbers2 = [1, 2, 3]
 [num1, num2] = numbers2
 console.log(num1, num2)*/
+
+//Reference and Primitive Types Refresher
+
+//Refreshinng Array Functions
+const numbers3 = [1, 2, 3]
+
+const doubleNumArray = numbers3.map((num) => {
+  return num * 2
+})
+
+console.log(numbers3)
+console.log(doubleNumArray)
